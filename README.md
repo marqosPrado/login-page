@@ -1,2 +1,2 @@
 # First Version:
-![alt text](image-1.png)
+![alt text](assets/image-1.png)
