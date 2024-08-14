@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-title h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    line-height: 130%;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form p {
+    font-family: "Inter", sans-serif;
+    color: grey;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+form input {
+    height: 46px;
+    width: 280px;
+    border: 1px solid #3F3D56;
+    border-radius: 10px;
+    padding: 14px 20px;
+}
+
+.container-forgotPassword {
+    display: flex;
+    justify-content: flex-end;
+    width: 280px;
+}
+
+form a {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    color: #3F3D56;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-enter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-enter button {
+    height: 54px;
+    width: 280px;
+    border-radius: 15px;
+    border: none;
+    background-color: #008B3C;
+    color: white;
+    cursor: pointer;
+}
+
+.container-enter button:hover {
+    background-color: #00A74A;
+}
+
+.container-divide {
+    font-size: 12px;
+    color: grey;
+}
+
+.container-login-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-social a {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D4D4D4;
+    border-radius: 10px;
+    width: 280px;
+    height: 44px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.login-social img {
+    width: 20px;
+    height: 20px;
+}
+
+.container-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-register button {
+    width: 280px;
+    height: 54px;
+    border-radius: 15px;
+    border: 1px solid #008B3C;
+    background-color: white;
+    color: #008B3C;
+    cursor: pointer;
+}
+
