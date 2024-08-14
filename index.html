@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Login Page</title>
 </head>
 <body>
-    <div>
-        <div>
+    <div class="container">
+        <div class="main">
             <div class="container-title">
                 <h1>Entre com a sua<br>Conta</h1>
             </div>
             <div class="container-form">
                 <form action="*" method="POST">
                     <div class="container-email">
-                        <label for="email">Email</label>
+                        <p for="email">Email</p>
                         <input type="email" name="email" id="email" required>
                     </div>
                     <div class="container-password">
-                        <label for="password">Senha</label>
+                        <p for="password">Senha</p>
                         <input type="password" name="password" id="password" required>
                     </div>
                     <div class="container-forgotPassword">
@@ -31,16 +34,16 @@
                 </form>
             </div>
             <div class="container-divide">
-                ----------------- OU -----------------
+                ----------------- Ou -----------------
             </div>
             <div class="container-login-social">
-                <div class="container-login-google">
+                <div class="login-social">
                     <a href="*">
                         <img src="assets/login-google.svg" alt="Google">
                         <p>Entrar com Google</p>
                     </a>
                 </div>
-                <div class="container-login-facebook">
+                <div class="login-social">
                     <a href="*">
                         <img src="assets/login-facebook.svg" alt="Facebook">
                         <p>Entrar com Facebook</p>
