@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,40 +9,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Login Page</title>
 </head>
-<body>
-    <div class="main">
-        <div class="container-title">
-            <h1>Entre com a sua<br>Conta</h1>
-            <div class="container-img">
-                <img src="assets/login-img.svg" alt="Login">
-            </div>
-        </div>
+<body class="main">
+    <div class="left-container">
+        <div class="title-img-container">
+            <h1 class="title">Entre com a sua<br>Conta</h1>
+            <img class="img-login" src="assets/login-img.svg" alt="Login">
+        </div>    
+    </div>
 
-        <div class="container-login">
-            <div class="container-form">
-                <form action="*" method="POST">
-                    <div class="container-email">
-                        <p for="email">Email</p>
-                        <input type="email" name="email" id="email" required>
-                    </div>
-                    <div class="container-password">
-                        <p for="password">Senha</p>
-                        <input type="password" name="password" id="password" required>
-                    </div>
-                    <div class="container-forgotPassword">
-                        <a href="forgot-password.html">Esqueceu a senha?</a>
-                    </div>
-                    <div class="container-enter">
-                        <button type="submit">Entrar</button>
-                    </div>
-                </form>
-            </div>
-            <div class="container-divide">
+    <div class="right-container">
+        <div class="form-container">
+            <form class="form" action="*" method="POST">
+                <div class="input-container">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="input-container">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="forgotPassword-container">
+                    <a href="forgot-password.html">Esqueceu a senha?</a>
+                </div>
+                <button class="button-login" type="submit">Entrar</button>
+            </form>
+
+            <div class="divider-container">
                 <div class="row"></div>
-                <p>Ou</p>
+                <p class="margin">Ou</p>
                 <div class="row"></div>
             </div>
-            <div class="container-login-social">
+
+            <div class="social-login-options">
                 <div class="login-social">
                     <a href="*">
                         <img src="assets/login-google.svg" alt="Google">
@@ -56,8 +54,9 @@
                     </a>
                 </div>
             </div>
-            <div class="container-register">
-                <button type="button">Criar uma conta</button>
+
+            <div class="register-container">
+                <button class="button-register" type="button">Criar uma conta</button>
             </div>
         </div>
     </div>
