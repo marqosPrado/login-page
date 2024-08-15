@@ -1,2 +1,2 @@
-# First Version:
-![alt text](assets/image-1.png)
+# Image:
+![alt text](assets/new-version.png)
