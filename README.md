@@ -1,2 +1,2 @@
 # Image:
-![alt text](assets/new-version.png)
+![alt text](assets/img-logo-version.png)
